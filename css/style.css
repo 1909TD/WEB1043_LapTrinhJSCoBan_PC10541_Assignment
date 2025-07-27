@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    margin: 20px auto;
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+#slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#slider img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+    position: relative;
+}
+.product:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.product-details {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 2;
+}
+.product:hover .product-details {
+    display: block;
+}
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+button:hover {
+    background: #0056b3;
+}
+#cart {
+    min-height: 40px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+#countdown {
+    font-size: 1.5em;
+    color: #d9534f;
+    font-weight: bold;
+    text-align: center;
+}
+.student-info {
+    margin-top: 8px;
+    font-size: 1.05em;
+    color: #ffe082;
+    font-weight: bold;
+}
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    margin-top: 30px;
+    font-size: 1em;
+    border-radius: 0 0 8px 8px;
+}
+.fpt-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fpt-f, .fpt-p, .fpt-t {
+    display: inline-block;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 18% 40% 40% 18% / 40% 18% 18% 40%;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+.fpt-f {
+    background: #0072ce;
+}
+.fpt-p {
+    background: #ff7300;
+}
+.fpt-t {
+    background: #2bb04c;
+}
+.fpt-poly {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ff7300;
+    margin-left: 12px;
+    letter-spacing: 2px;
+    font-family: 'Arial Black', Arial, sans-serif;
+} 

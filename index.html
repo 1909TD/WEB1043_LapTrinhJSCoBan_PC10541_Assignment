@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopMiniJS - Website Bán Hàng Mini</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="fpt-logo">
+            <span class="fpt-f">F</span><span class="fpt-p">P</span><span class="fpt-t">T</span>
+            <span class="fpt-poly">POLYTECHNIC</span>
+        </div>
+        <h1>ShopMiniJS</h1>
+        <p>Website bán hàng mini với JavaScript</p>
+        <div class="student-info">
+            Sinh viên: Nguyễn Thành Đạt | Mã số: PC10541
+        </div>
+    </header>
+    <section id="slider-section">
+        <h2>Khuyến mãi nổi bật</h2>
+        <div id="slider">
+            <button id="prevBtn">&#8592;</button>
+            <img id="sliderImg" src="" alt="Slider Image">
+            <button id="nextBtn">&#8594;</button>
+        </div>
+    </section>
+    <section id="products-section">
+        <h2>Sản phẩm</h2>
+        <div id="products"></div>
+    </section>
+    <section id="cart-section">
+        <h2>Giỏ hàng</h2>
+        <div id="cart"></div>
+    </section>
+    <section id="form-section">
+        <h2>Đăng ký nhận tin</h2>
+        <form id="subscribeForm">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span><br>
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+    <section id="countdown-section">
+        <h2>Đồng hồ đếm ngược khuyến mãi</h2>
+        <div id="countdown"></div>
+    </section>
+    <footer>
+        <p>Thực hiện bởi Nguyễn Thành Đạt - PC10541 | WEB1043</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html> 

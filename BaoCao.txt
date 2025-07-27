@@ -1,0 +1,44 @@
+BÁO CÁO ĐỀ TÀI WEB1043
+========================
+
+Sinh viên thực hiện: Nguyễn Thành Đạt
+Mã số sinh viên: PC10541
+
+1. Tên đề tài: ShopMiniJS - Website bán hàng mini
+
+2. Các chức năng đã làm:
+- Hiển thị giao diện website bán hàng mini
+- Hiệu ứng onmouseover/onmouseout: Di chuột vào sản phẩm hiện chi tiết
+- Slider ảnh sản phẩm khuyến mãi (next/prev)
+- Form nhập tên, email và kiểm lỗi hợp lệ
+- Giỏ hàng đơn giản: Thêm sản phẩm, hiển thị tổng tiền
+- Tính năng nâng cao: Countdown clock (đồng hồ đếm ngược khuyến mãi)
+
+3. Thư viện đã dùng:
+- Không sử dụng thư viện ngoài, chỉ dùng HTML, CSS, JavaScript thuần
+
+4. Phân tích thư mục, file:
+ShopMiniJS/
+├── index.html         (Giao diện chính)
+├── js/
+│   └── script.js      (Toàn bộ mã JavaScript)
+├── css/
+│   └── style.css      (Toàn bộ mã CSS)
+├── BaoCao.doc         (Báo cáo này)
+
+5. Sơ đồ chức năng:
+- Trang chủ
+  + Slider ảnh
+  + Danh sách sản phẩm
+    * Hover hiện chi tiết
+    * Thêm vào giỏ
+  + Giỏ hàng
+  + Form đăng ký nhận tin
+  + Countdown clock
+
+(Đính kèm sơ đồ chức năng nếu cần)
+
+6. Hướng dẫn sử dụng:
+- Mở file index.html trên trình duyệt để xem website hoạt động.
+
+--- 
